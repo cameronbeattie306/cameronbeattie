@@ -15,6 +15,12 @@ body {
   padding: 20px;
 }
 
+.container {
+    max-width: 1000px;       /* or 900px, 1200px, whatever you prefer */
+      margin: 0 auto;          /* centers horizontally */
+        padding: 0 20px;         /* adds some spacing on small screens */
+}
+
 /* ---------------------------------------
    Header
 --------------------------------------- */
