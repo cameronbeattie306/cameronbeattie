@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Research | Your Name</title>
+  <title>Research | Cameron Beattie</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <h1>Your Name</h1>
+  <h1>Cameron Beattie</h1>
   <p>Computer Scientist · Research → Industry</p>
   <nav>
     <a href="index.html">Home</a>
@@ -17,6 +17,8 @@
     <a href="research.html">Research</a>
     <a href="resume.pdf">Resume</a>
   </nav>
+
+<a href="https://hci.usask.ca/index.php/member/cameron-beattie/">Link to Interaction Lab profile</a>
 </header>
 
 <section>
@@ -30,104 +32,45 @@
 </section>
 
 <section>
+<div class="research-entry">
+  <h3>Understanding and Improving the Performance of Action Pointing</h3>
+  <p class="authors">Cameron Beattie, Carl Gutwin, Andy Cockburn, Eric Redekopp</p>
+  <p class="abstract">
+Action pointing involves choosing and executing an action at a specific place in the workspace (e.g., choosing a tool and clicking to start drawing, or selecting an object and copying with a shortcut). The elements of action pointing (choosing an action, specifying a position, and triggering the action) can be carried out in many ways -- and our analysis of current techniques identified limitations on performance, particularly for repeated sequences of interactions. To empirically analyse interaction alternatives for action pointing, we developed and evaluated two techniques: ModeKeys removes modifier keys from keyboard shortcuts used to choose actions; AimKeys goes further by using the shortcut (not the mouse) to trigger the action. Three studies over three tasks showed that these reconfigurations were highly effective –- in all studies, either AimKeys or ModeKeys were faster, easier, and preferred overall. Our studies show that small variations in the configuration of action pointing can have a large impact, offering opportunities to improve performance with direct-manipulation systems.
+  </p>
+  <p class="venue">
+    Published in <em>CHI 2025</em> | <a href="https://doi.org/10.1145/3706598.3713761" target="_blank">Link to ACM DL</a>
+  </p>
+</div>
 
-  <div class="project">
-    <h3>Modeling Chorded vs Sequential Input</h3>
-    <div class="meta">Human–Computer Interaction · Input Modeling</div>
+<div class="research-entry">
+  <h3>Investigating the Design and Performance of Letter Chords: Alternative Command Entry For Typing</h3>
+  <p class="authors">Cameron Beattie, Allen Yeh, Andy Cockburn, Carl Gutwin</p>
+  <p class="abstract">
+Users frequently need to enter both text and commands. Commands typically involve pointing to GUI controls or using modifier-based hotkeys. However, displaying GUI controls takes up space, and selecting them involves visual search and pointing; and hotkeys can be awkward because they require reaching for the modifier key. Previous research proposed an alternate mechanism, in which commands are expressed by chording letter keys. Prior work shows that letter chords can be reliably recognized and learned, but does not identify which chords are best, or assess performance in realistic tasks. We provide this information with studies that explore the design of letter chords on physical and mobile keyboards, and that evaluate their performance compared to hotkeys and toolbars. Our studies identify several features of usable letter chords, and show that in several contexts, command selection time is faster with letter chords than traditional mechanisms.
+  </p>
+  <p class="venue">
+    Presented at <em>Research Fest 2025 & SURE 2025</em> | Paper in preparation, submission planned for 2026.
+  </p>
+</div>
 
-    <p>
-      Investigated temporal and structural differences between chorded
-      and sequential key input, using real keystroke stream data.
-    </p>
-
-    <ul>
-      <li>Defined a representation for simultaneous vs ordered key events</li>
-      <li>Analyzed inter-key timing, hold duration, and error patterns</li>
-      <li>Evaluated implications for accessibility and alternative input methods</li>
-    </ul>
-
-    <p>
-      <strong>Relevance:</strong> informs the design of low-latency,
-      expressive input systems used in productivity and accessibility tools.
-    </p>
-
-    <p>
-      <a href="#">Paper (PDF)</a> ·
-      <a href="#">Code</a>
-    </p>
-  </div>
-
-  <div class="project">
-    <h3>Streaming Classification of Human Input</h3>
-    <div class="meta">Machine Learning · Signal Processing</div>
-
-    <p>
-      Developed classifiers for online identification of structured
-      input patterns in streaming keystroke data.
-    </p>
-
-    <ul>
-      <li>Designed real-time feature extraction from event streams</li>
-      <li>Compared offline vs streaming classification performance</li>
-      <li>Measured latency–accuracy tradeoffs in deployment-style settings</li>
-    </ul>
-
-    <p>
-      <strong>Relevance:</strong> applicable to real-time analytics,
-      adaptive interfaces, and human-centered ML systems.
-    </p>
-
-    <p>
-      <a href="#">Paper (PDF)</a> ·
-      <a href="#">Dataset</a>
-    </p>
-  </div>
-
-  <div class="project">
-    <h3>Empirical Analysis of Typing Timing Variability</h3>
-    <div class="meta">Data Analysis · Experimental Methods</div>
-
-    <p>
-      Conducted large-scale analysis of timing variability in human typing,
-      focusing on reproducibility and robustness of common metrics.
-    </p>
-
-    <ul>
-      <li>Evaluated sensitivity of timing features to noise and sampling</li>
-      <li>Compared statistical descriptors across participants and sessions</li>
-      <li>Assessed reproducibility of published input metrics</li>
-    </ul>
-
-    <p>
-      <strong>Relevance:</strong> improves reliability of behavioral data
-      used in ML models and adaptive systems.
-    </p>
-
-    <p>
-      <a href="#">Paper (PDF)</a>
-    </p>
-  </div>
-
-</section>
-
-<section>
-  <h2>Publications</h2>
-
-  <ul>
-    <li>
-      Your Name, Coauthor. <em>Title of Paper.</em> Conference / Journal, Year.
-    </li>
-    <li>
-      Your Name, Coauthor. <em>Another Paper Title.</em> Conference / Journal, Year.
-    </li>
-  </ul>
+<div class="research-entry">
+  <h3>The Effect of Cue Type on Comparison Performance in Charts</h3>
+  <p class="authors">Cameron Beattie, Carl Gutwin, Charles Perin</p>
+  <p class="abstract">
+Comparison tasks in charts have been widely studied, but there is still little known about the effects of cueing -- the way that chart elements are indicated to the user. We carried out three studies to determine if cue type can affect performance, and whether effects are consistent across chart type. The first study asked participants to compare element size, with five cues (high and low marks, fill and border highlighting, and label indications) and seven charts (vertical, horizontal, and radial bar charts; stacked `donut' and row charts; dot and dot+line charts). Two additional studies tested a subset of these cues and charts with other tasks (a more complex size comparison, and a trend-identification task). Results of all studies showed large performance differences based on cue, and substantial variation by chart type. Our studies provide empirical evidence that can help researchers and practitioners select appropriate cues for chart comparison.
+</p>
+  <p class="venue">
+   Paper in preparation, submission planned for the near future.
+  </p>
+</div>
 </section>
 
 <footer>
   <p>
-    © Your Name · 
-    <a href="mailto:youremail@example.com">youremail@example.com</a> ·
-    <a href="https://github.com/yourusername">GitHub</a>
+    © Cameron Beattie · 
+    <a href="mailto:cameronbeattie306@gmail.com">cameronbeattie306@gmail.com</a> ·
+    <a href="https://github.com/cameronbeattie306">GitHub</a>
   </p>
 </footer>
 
