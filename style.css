@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f5f6fa;
   color: #333;
   line-height: 1.6;
@@ -16,9 +16,9 @@ body {
 }
 
 .container {
-    max-width: 1000px;       /* or 900px, 1200px, whatever you prefer */
-      margin: 0 auto;          /* centers horizontally */
-        padding: 0 20px;         /* adds some spacing on small screens */
+  max-width: 1000px; /* or 900px, 1200px, whatever you prefer */
+  margin: 0 auto; /* centers horizontally */
+  padding: 0 20px; /* adds some spacing on small screens */
 }
 
 /* ---------------------------------------
@@ -66,7 +66,7 @@ h2.section-title {
 }
 
 h2.section-title::after {
-  content: '';
+  content: "";
   display: block;
   width: 80px;
   height: 3px;
@@ -78,26 +78,32 @@ h2.section-title::after {
 /* ---------------------------------------
    Project / Research Cards
 --------------------------------------- */
-.project, .research-entry {
+.project,
+.research-entry {
   background-color: #ffffff;
   padding: 25px 30px;
   border-radius: 12px;
   margin-bottom: 25px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 }
 
-.project:hover, .research-entry:hover {
+.project:hover,
+.research-entry:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
 }
 
-.project h3, .research-entry h3 {
+.project h3,
+.research-entry h3 {
   color: #2f3640;
   margin-bottom: 8px;
 }
 
-.project .meta, .research-entry .authors {
+.project .meta,
+.research-entry .authors {
   font-style: italic;
   color: #718093;
   margin-bottom: 12px;
@@ -112,11 +118,13 @@ h2.section-title::after {
   margin-bottom: 6px;
 }
 
-.project .tags, .research-entry .tags {
+.project .tags,
+.research-entry .tags {
   margin-top: 10px;
 }
 
-.project .tag, .research-entry .tag {
+.project .tag,
+.research-entry .tag {
   display: inline-block;
   background-color: #00a8ff;
   color: #fff;
@@ -127,7 +135,8 @@ h2.section-title::after {
   transition: background-color 0.2s;
 }
 
-.project .tag:hover, .research-entry .tag:hover {
+.project .tag:hover,
+.research-entry .tag:hover {
   background-color: #0097e6;
 }
 
@@ -164,3 +173,18 @@ footer {
   font-size: 0.9em;
 }
 
+/* ---------------------------------------
+	Image
+--------------------------------------- */
+.profile-image {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.profile-image img {
+  width: 200px; /* adjust size as desired */
+  height: auto;
+  border-radius: 50%; /* circular portrait */
+  object-fit: cover;
+}
